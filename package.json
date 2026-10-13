@@ -1,0 +1,27 @@
+{
+  "name": "lunagraph",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Code-Knowledge-Graph für Next.js/TypeScript-Projekte, damit Claude Code mit weniger Tokens den Projektkontext versteht",
+  "type": "module",
+  "scripts": {
+    "lunagraph": "tsx src/cli.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "commander": "^15.0.0",
+    "ts-morph": "^28.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  }
+}

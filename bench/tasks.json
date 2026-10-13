@@ -1,0 +1,27 @@
+[
+  {
+    "id": "upload-flow",
+    "type": "verständnis",
+    "prompt": "Erkläre, wie ein Dokument in diesem Projekt vom Upload bis zur Anzeige in der Ablage läuft. Nenne die beteiligten Files mit Pfad."
+  },
+  {
+    "id": "todo-priority",
+    "type": "impact",
+    "prompt": "Die Tabelle todos soll ein Feld priority bekommen. Liste alle Files und Funktionen auf, die dafür angepasst werden müssen. Nichts ändern, nur auflisten."
+  },
+  {
+    "id": "event-location",
+    "type": "änderung (geplant)",
+    "prompt": "Termine (events) sollen ein optionales Feld location bekommen, inklusive Schema, Server Action und Anzeige. Beschreibe exakt, welche Stellen in welchen Files du ändern würdest. Nicht umsetzen."
+  },
+  {
+    "id": "vault-source",
+    "type": "suche",
+    "prompt": "Wo im Code wird festgelegt, welche Dateien aus dem Obsidian-Vault geladen und angezeigt werden? Antworte mit file:line."
+  },
+  {
+    "id": "unused",
+    "type": "analyse",
+    "prompt": "Welche Drizzle-Tabellen und welche exportierten Funktionen werden im Projekt nirgends benutzt? Liste sie mit Pfad auf."
+  }
+]
